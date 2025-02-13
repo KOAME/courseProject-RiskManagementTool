@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Risk management tool for mobile manufacturers" />
+        <meta name="author" content="Ruoxin Feng, Yifan Luo, Cheng Yu" />
+        <title>Risk Management Tool</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Risk Management</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#case">Case Study</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#identify">Identify</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#mitigate">Mitigate</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#monitor">Monitor</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To Our Risk Management Tool!</div>
+                <div class="masthead-heading text-uppercase">Samsung Galaxy Note 7 Recall</div>
+            </div>
+            <div class="image-source">
+                Image source: 
+                <a href="https://www.tecmundo.com.br/samsung-galaxy-note-7/109125-samsung-anuncia-recall-galaxy-note-7-suspende-vendas-explosoes.htm" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                  TecMundo
+                </a>
+            </div>
+        </header>
+        
+
+        <section class="page-section" id="about">
+            <div class="container">
+                <h2 class="section-heading text-uppercase text-center">About This Tool</h2>
+                <p class="text-justify">
+                    This risk management tool was developed by Ruoxin Feng, Yifan Luo, and Cheng Yu at Technische Universität München. It is designed for mobile manufacturers, particularly teams focused on quality control, consumer safety, and strategic decision-making.
+                </p>
+                <p class="text-justify">
+                    Risk management is often debated—what it entails, how it should be applied, and what it can achieve. The ISO 31000 standard, published in 2009, provides a structured approach to these questions. Building on ISO 31000, this tool offers guidance on effectively implementing risk management in the mobile manufacturing sector, recognizing that risk carries both opportunities and challenges.
+                </p>
+            </div>
+        </section>
+
+        <section class="page-section bg-light" id="case">
+            <div class="container">
+                <h2 class="section-heading text-uppercase text-center">
+                    Case Study: Samsung Galaxy Note 7 Recall
+                </h2>
+                <h3 class="subheading text-center">A Major Crisis in Tech History</h3>
+
+                <p class="text-justify">
+                    In 2016, Samsung launched the <span class="highlight">Galaxy Note 7</span>, a highly anticipated smartphone featuring cutting-edge technology and a high-capacity battery. However, shortly after its release, reports of <span class="highlight-danger">overheating and battery explosions</span> emerged worldwide.
+                </p>
+                <p class="text-justify">
+                    In response, Samsung issued a <span class="highlight-danger">global recall</span> and replaced defective units. Unfortunately, the replacement devices also caught fire, leading to a <span class="highlight-danger">second recall</span> and the permanent discontinuation of the Note 7.
+                </p>
+                <p class="text-justify">
+                    This incident became one of the most significant product recalls in tech history, highlighting critical risks in <span class="highlight">battery safety, quality control,</span> and <span class="highlight">crisis management</span>.
+                </p>
+        
+                <!-- 第一阶段 -->
+                <div class="timeline-item">
+                    <div class="timeline-text">
+                        <h4>📅 August 2, 2016 - Launch</h4>
+                        <p>Samsung unveils the Galaxy Note 7, a highly anticipated smartphone featuring cutting-edge technology and a high-capacity battery.</p>
+                    </div>
+                    <div class="timeline-img">
+                        <img src="assets/img/timeline/1.png" alt="Samsung Galaxy Note 7 Recall Timeline 1">
+                    </div>
+                </div>
+        
+                <!-- 第二阶段 -->
+                <div class="timeline-item timeline-reverse">
+                    <div class="timeline-text">
+                        <h4>⚠️ August 24-30, 2016 - Reports of Explosions</h4>
+                        <p>Users report overheating and battery fires. Samsung starts investigating the issue.</p>
+                    </div>
+                    <div class="timeline-img">
+                        <img src="assets/img/timeline/2.png" alt="Samsung Galaxy Note 7 Recall Timeline 2">
+                    </div>
+                </div>
+        
+                <!-- 第三阶段 -->
+                <div class="timeline-item">
+                    <div class="timeline-text">
+                        <h4>🔄 September 2, 2016 - Global Recall Announced</h4>
+                        <p>Samsung recalls 2.5 million units worldwide due to safety concerns.</p>
+                    </div>
+                    <div class="timeline-img">
+                        <img src="assets/img/timeline/3.png" alt="Samsung Galaxy Note 7 Recall Timeline 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+           
+
+        <section class="page-section" id="identify">
+            <div class="container text-center">
+                <h2 class="section-heading text-uppercase">Identify Risks</h2>
+                <p>Classify risks using a <strong>5×5 risk matrix</strong> to determine which require immediate action 
+                    (<span style="color: red; font-weight: bold;">red areas</span>) and which can be monitored or delayed 
+                    (<span style="color: orange; font-weight: bold;">yellow areas</span>).
+                </p>
+                
+        
+                <!-- 🌟 让 5x5 风险矩阵更明显 -->
+                <div class="risk-matrix-container">
+                    <h3 class="risk-matrix-title">📊 5×5 Risk Matrix for Mobile Manufacturing</h3>
+                    <div class="risk-matrix">
+                        <img src="assets/img/identify.png" alt="5x5 Risk Matrix for Mobile Manufacturing">
+                    </div>
+                                       
+                </div>
+
+                <!-- 🌟 交互工具容器 -->
+                <div class="interactive-tool">
+                    <h3>🛠 Interactive Risk Level Calculator</h3>
+                    <p>Users can determine the risk level by inputting different likelihoods and impacts via sliders.</p>
+                    <p class="risk-examples-text">
+                        <strong>Risk example:</strong> Battery Overheating or Explosion, Manufacturing Defects, 
+                        Component Quality Issues, Supply Chain Disruptions, Product Design Flaws, 
+                        Software Bugs or Vulnerabilities, Delayed Product Launch, 
+                        Performance Below User Expectations, Inadequate After-Sales Service, 
+                        User Data Privacy Breaches etc.
+                    </p> 
+                    <!-- 风险输入滑块 -->
+                    <div class="risk-slider">
+                        <label for="likelihood">Likelihood (1-5):</label>
+                        <input type="range" id="likelihood" min="1" max="5" value="3" oninput="updateRisk()">
+                        <span id="likelihood-value">3</span>
+                    </div>
+                    <div class="risk-slider">
+                        <label for="severity">Severity (1-5):</label>
+                        <input type="range" id="severity" min="1" max="5" value="3" oninput="updateRisk()">
+                        <span id="severity-value">3</span>
+                    </div>
+        
+                    <!-- 计算风险等级 -->
+                    <div id="risk-result">
+                        <h3>Risk Level: <span id="risk-level" class="medium">Medium</span></h3>
+                    </div>
+                </div>
+        
+                
+            </div>
+        </section>
+        
+        
+
+        <section class="page-section bg-light" id="mitigate">
+            <div class="container text-center">
+                <h2 class="section-heading text-uppercase">Mitigation Strategies</h2>
+                <p class="text-justify">
+                    Based on the Risk Matrix of Mobile Manufacturing Process, according to global risk management standards 
+                    (ISO 31000, COSO ERM framework), leading consulting reports (McKinsey, BCG), and real-world case studies, 
+                    we classify mobile manufacturers' risks into the following six categories.
+                </p>
+
+                <div class="list-group-container">
+                    <div class="list-group">
+                        <!-- Supply Chain Risks -->
+                        <div class="card" onclick="toggleRiskDetails('supply-chain')">
+                            <h3>Supply Chain Risks</h3>
+                            <p>Disruptions in procurement, production, and distribution of essential components.</p>
+                            <span class="toggle-icon" id="icon-supply-chain">Click to Expand 🔽</span>
+                            <div class="risk-details" id="supply-chain">
+                                <ul>
+                                    <li><strong>Supplier Bankruptcy:</strong> If a key supplier goes bankrupt, production can be halted.</li>
+                                    <li><strong>Chip & Component Shortages:</strong> 2020–2022 semiconductor shortages impacted 45% of mobile production.</li>
+                                    <li><strong>Logistics & Transportation Issues:</strong> Delays due to geopolitical conflicts, trade restrictions, or natural disasters.</li>
+                                    <li><strong>Regulatory & Tariff Changes:</strong> Trade wars affecting import/export.</li>
+                                </ul>
+                                <img src="assets/img/mitigate/Picture1.png" alt="Supply Chain Risks">
+                            </div>
+                        </div>
+
+                        <!-- Product Quality Risks -->
+                        <div class="card" onclick="toggleRiskDetails('product-quality')">
+                            <h3>Product Quality Risks</h3>
+                            <p>Defects, malfunctions, or safety hazards that can lead to recalls and reputational damage.</p>
+                            <span class="toggle-icon" id="icon-product-quality">Click to Expand 🔽</span>
+                            <div class="risk-details" id="product-quality">
+                                <ul>
+                                    <li><strong>Battery Explosions & Overheating:</strong> A major issue in the Note 7 recall (2016).</li>
+                                    <li><strong>Defective Components:</strong> Issues like screen defects and faulty chips affecting performance.</li>
+                                    <li><strong>Manufacturing Defects:</strong> Errors in production causing high defect rates.</li>
+                                    <li><strong>Software Vulnerabilities:</strong> Security flaws making devices hackable.</li>
+                                </ul>
+                                <img src="assets/img/mitigate/Picture2.png" alt="Product Quality Risks">
+                            </div>
+                        </div>
+
+                        <!-- Market & Branding Risks -->
+                        <div class="card" onclick="toggleRiskDetails('market-branding')">
+                            <h3>Market & Branding Risks</h3>
+                            <p>Declining consumer trust, poor market positioning, and reputational damage.</p>
+                            <span class="toggle-icon" id="icon-market-branding">Click to Expand 🔽</span>
+                            <div class="risk-details" id="market-branding">
+                                <ul>
+                                    <li><strong>Brand Reputation Crisis:</strong> Negative media coverage from product recalls.</li>
+                                    <li><strong>Misleading Marketing Claims:</strong> Exaggerated product performance leading to lawsuits.</li>
+                                    <li><strong>Changing Consumer Preferences:</strong> Failure to innovate results in market loss.</li>
+                                    <li><strong>Competitive Pressure:</strong> New brands (e.g., Xiaomi) disrupting the market.</li>
+                                </ul>
+                                <img src="assets/img/mitigate/Picture3.png" alt="Market & Branding Risks">
+                            </div>
+                        </div>
+
+                        <!-- Legal & Compliance Risks -->
+                        <div class="card" onclick="toggleRiskDetails('legal-compliance')">
+                            <h3>Legal & Compliance Risks</h3>
+                            <p>Violations of IP laws, regulatory standards, and government policies leading to lawsuits.</p>
+                            <span class="toggle-icon" id="icon-legal-compliance">Click to Expand 🔽</span>
+                            <div class="risk-details" id="legal-compliance">
+                                <ul>
+                                    <li><strong>Patent Infringement Lawsuits:</strong> e.g., Apple vs. Samsung legal battles.</li>
+                                    <li><strong>Regulatory Bans & Fines:</strong> Government restrictions due to non-compliance.</li>
+                                    <li><strong>Data Privacy Regulations:</strong> GDPR and CCPA imposing strict data protection laws.</li>
+                                    <li><strong>Environmental & Labor Laws:</strong> Compliance with sustainability regulations.</li>
+                                </ul>
+                                <img src="assets/img/mitigate/Picture4.png" alt="Legal & Compliance Risks">
+                            </div>
+                        </div>
+
+                        <!-- Cybersecurity & Data Protection Risks -->
+                        <div class="card" onclick="toggleRiskDetails('cybersecurity')">
+                            <h3>Cybersecurity & Data Protection Risks</h3>
+                            <p>Data breaches, hacking incidents, and security vulnerabilities exposing sensitive user info.</p>
+                            <span class="toggle-icon" id="icon-cybersecurity">Click to Expand 🔽</span>
+                            <div class="risk-details" id="cybersecurity">
+                                <ul>
+                                    <li><strong>Data Breaches & Hacks:</strong> e.g., Samsung’s 2021 data breach.</li>
+                                    <li><strong>Ransomware & Malware Attacks:</strong> Hackers encrypting critical data for ransom.</li>
+                                    <li><strong>IoT & Mobile Security Vulnerabilities:</strong> Weak security in mobile devices.</li>
+                                    <li><strong>Regulatory Fines:</strong> Non-compliance with global data protection laws.</li>
+                                </ul>
+                                <img src="assets/img/mitigate/Picture5.png" alt="Cybersecurity & Data Protection Risks">
+                            </div>
+                        </div>
+    
+                        <!-- Production & Operational Risks -->
+                        <div class="card" onclick="toggleRiskDetails('operational')">
+                            <h3>Production & Operational Risks</h3>
+                            <p>Factory shutdowns, labor disputes, equipment failures, and inefficiencies affecting manufacturing output.</p>
+                            <span class="toggle-icon" id="icon-operational">Click to Expand 🔽</span>
+                            <div class="risk-details" id="operational">
+                                <ul>
+                                    <li><strong>Factory Shutdowns Due to Disasters:</strong> Natural disasters (e.g., earthquakes, pandemics) halting production.</li>
+                                    <li><strong>Labor Strikes & Workforce Shortages:</strong> Employee disputes disrupting operations.</li>
+                                    <li><strong>Equipment Failures & Maintenance Issues:</strong> Production delays due to faulty machinery.</li>
+                                    <li><strong>Missed Product Launch Deadlines:</strong> Delays causing lost revenue and competitive disadvantage.</li>
+                                </ul>
+                                <img src="assets/img/mitigate/Picture6.png" alt="Production & Operational Risks">
+                            </div>
+                        </div>
+    
+            
+                    </div>
+                </div>
+
+                
+                    <!-- <div class="container text-left"> -->
+                        <br><br><br><br>
+                        <h3 class="section-heading text-uppercase text-center">Risk Mitigation Strategies in Action</h2>
+                        <h4 class="subheading text-center">Samsung Galaxy Note 7 Recall Case Study</h3>
+                        <br>
+                        <img src="assets/img/mitigate/Picture7.png" alt="" class="limited-img">
+                        <!-- 📌 信息来源 -->
+                        <p class="source-text">
+                            <small>Source: <a href="https://www.samsungsdi.com/esg/sustainability/risk-management.html" target="_blank">Samsung SDI Risk Management</a></small>
+                        </p>
+
+                        <!-- 🌟 风险管理框架 -->
+                        <div class="risk-section">
+                            <h4>📌 Company-wide Risk Management Framework</h4>
+                            <p class="text-justify">
+                                Samsung SDI's Board of Directors comprehensively manages a range of risks that may occur in the business environment concerning operations, finance, and workplace safety, and makes major decisions. 
+                            </p>
+                        </div>
+                
+                        <!-- 🌟 内部控制系统 -->
+                        <div class="risk-section">
+                            <h4>🛠 Internal Control System</h4>
+                            <p class="text-justify">
+                                An internal control system for systemic risk management was established to specify area-specific risk policies and potential risk categories. Responsible departments engage in preemptive management and regular assessment for respective risks, and the results and response strategies are eventually reported to the Board of Directors either through the Management Committee or the Sustainability Management Committee. In addition, risks associated with the material topics identified through annual materiality assessment are regularly reviewed through the Sustainability Management Council to develop and implement countermeasures.
+                            </p>
+                        </div>
+                
+                        <!-- 🌟 风险管理团队 -->
+                        <div class="risk-section">
+                            <h4>🚨 Dedicated Risk Management Team</h4>
+                            <p class="text-justify">
+                                Samsung created and operated the Risk Management Team as a dedicated organization for the systemic management of project-related risks. An emergency contact system for immediate response in case of emergency was established, and it manages risks so that they can be reported to the committee. 
+                            </p>
+                        </div>
+                
+                        <!-- 🌟 员工参与和激励 -->
+                        <div class="risk-section">
+                            <h4>🏆 Employee Participation & Incentives</h4>
+                            <p class="text-justify">
+                                In addition, a company-wide consensus on the key risks was built to create a culture of risk management at all levels so that the employees identify and preemptively respond to risk in their own working environment. Risk factors associated with product safety & quality, injuries, and compliance are incorporated in executive and manager performance appraisal metrics, and appraisal outcomes are reflected in determining their compensation. Employees, who immediately report quality risk that may arise throughout our entire operations spanning manufacturing, purchasing, and sales, are recognized with the Quality Hero award to encourage proactive risk identification and reporting. 
+                            </p>
+                        </div>
+                
+                        <!-- 🌟 ESG 风险管理 -->
+                        <div class="risk-section">
+                            <h4>🌱 ESG Risk Management</h4>
+                            <p class="text-justify">
+                                Samsung conducts ESG due diligence on its partners to monitor and manage ESG risk that may arise along its supply chains and has established a system for employees to immediately report any potential risk that could potentially lead to injuries upon detecting such risk to ensure workplace safety.
+                            </p>
+                        </div>
+                
+                        <!-- 🌟 合规风险管理 -->
+                        <div class="risk-section">
+                            <h4>⚖️ Compliance Risk Management</h4>
+                            <p class="text-justify">
+                                For compliance risk, Samsung Compliance Program Management System (CPMS) assists employees in obtaining information on risk prevention themselves and submit their whistleblowing reports for work-related compliance issues.
+                            </p>
+                        </div>
+                
+                        <!-- 🌟 风险识别与缓解 -->
+                        <div class="risk-section">
+                            <h4>🔍 Risk Identification & Mitigation Details</h4>
+                            <p class="text-justify">
+                                Samsung integrates risk assessment into its strategic planning to prevent recurrence of incidents 
+                                like the Note 7 recall.
+                            </p>
+                        </div>
+
+                        <br>
+                        <h4 class="subheading text-center">Risk Identification and Mitigation Details</h3>
+                        <br>
+                        <img src="assets/img/mitigate/Picture8.png" alt="" class="limited-img1">
+                        
+                        
+                    <!-- </div> -->
+
+            </div>
+        </section>
+
+
+        <section class="page-section" id="monitor">
+            <div class="container text-center">
+                <h2 class="section-heading text-uppercase">Monitor Dashboard</h2>
+            </div>
+            <br><br>
+            <div class="image-container">
+                <h3>Simulated Data & Social Media Comments</h3>
+                <p>Due to data availability and GDPR considerations, we have simulated the recall data and social media comments based on the timeline mentioned above.
+                </p>
+                <p>The following visualization represents the simulated data and social media comments regarding the recall process.</p>
+                <img src="assets/img/monitor/data.png" alt="Simulated Data" class="limited-img">
+            </div>
+            <br>
+            <div class="container1">
+                <h3>📢 Interactive Comments</h3>
+                <div class="comment-box">
+                    <ul class="comment-list" id="commentList">
+                        <!-- Comments will be added dynamically here -->
+                    </ul>
+                </div>
+            
+                <div class="comment-input">
+                    <input type="text" id="commentInput" placeholder="Write your comment here...">
+                    <button onclick="addComment()">Post</button>
+                </div>
+
+                <div class="reaction-container">
+                    <h5>Like & Dislike Interaction</h5>
+                    <div class="reaction like" onclick="increment('likeCount')">
+                        👍 <span id="likeCount">1415</span>
+                    </div>
+                    <div class="reaction dislike" onclick="increment('dislikeCount')">
+                        👎 <span id="dislikeCount">9265</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <br><br><br>
+            <div class="container">
+                <div class="container text-center">
+                    <h3>Analysis with Simulated Data</h3>
+                </div>
+                
+                <div class="grid-container">
+                    <div class="card1">
+                        <h3>Product Quality Monitor ⚠️</h3>
+                        <p>Monitoring product defects, customer complaints, and recalls.</p>
+                        <p><span class="highlight">90%</span> of customer complaints were related to battery overheating issues.</p>
+                        <img src="assets/img/monitor/MarketComplaints.pdf" alt="Market Complaints">
+                    </div>
+            
+                    <div class="card1">
+                        <h3>Market & Branding Monitor 📉 </h3>
+                        <p>Monitoring brand reputation, consumer trust, and market share.</p>
+                        <p>After the Note 7 recall, Samsung’s market share dropped by <span class="highlight">8%</span>.</p>
+                        <img src="assets/img/monitor/BrandReputation.pdf" alt="Brand Reputation">
+                    </div>
+
+                    <div class="card1">
+                        <h3>Supply Chain Monitor 💾</h3>
+                        <p>Tracking supplier bankruptcy, material shortages, and logistics delays.</p>
+                        <!-- <iframe src="assets/img/monitor/45.pdf" class="pdf-frame"></iframe> -->
+                        <img src="assets/img/monitor/45.png" alt="">
+                    </div>
+
+                    <div class="card1">
+                        <h3>Production & Operational Monitor 🏭 </h3>
+                        <p>Tracking factory shutdowns, equipment failures, and workforce shortages.</p>
+                        <img src="assets/img/monitor/30.png" alt="">
+                    </div>
+
+                    <div class="card1">
+                        <h3>Legal & Compliance Monitor ⚖️</h3>
+                        <p>Tracking lawsuits, regulatory compliance, and government policies.</p>
+                        <img src="assets/img/monitor/Legal.pdf" alt="">
+                    </div>
+            
+                    <div class="card1">
+                        <h3>Cybersecurity & Data Monitor 🛡️</h3>
+                        <p>Monitoring data breaches, hacking incidents, and privacy vulnerabilities.</p>
+                        <img src="assets/img/monitor/Cyber.pdf" alt="">
+                    </div>
+            
+                    
+                </div>
+            </div>
+            <br><br><br>
+            <div class="container">
+                <div class="container text-center">
+                    <h3>Pairplot of Key Metrics with Simulated Data</h3>
+                <img src="assets/img/monitor/Pairplot.pdf" alt="" class="limited-img">
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-lg-start">
+                        <p>📚 MGT001457 Course Project | Technische Universität München</p>
+                    </div>
+                    <div class="col-lg-6 text-lg-end">
+                        <p>Copyright &copy; 2024</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
